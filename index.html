@@ -1,0 +1,998 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta name="author" content="">
+<meta name="description" content="">
+<meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Deekshitha Kilaru</title>
+
+<!--Favicon-->
+<link rel="shortcut icon" href="img/favicon.png">
+
+<!-- CSS Files -->
+<link href="css/bootstrap.min.css" rel="stylesheet">
+<link href="css/circle.css" rel="stylesheet">
+<link href="css/font-awesome.min.css" rel="stylesheet">
+<link href="css/fm.revealator.jquery.min.css" rel="stylesheet">
+<link href="css/tiny-slider.css" rel="stylesheet">
+<link href="css/style.css" rel="stylesheet">
+
+<!-- Color Stylesheet -->
+<link href="css/colors/red-color.css" rel="stylesheet">
+
+<!-- Google Fonts -->
+
+
+<style type="text/css">
+  .timee{
+    color: #000000;
+    font-size: 14px;
+    padding: 3px 12px;
+    display: inline-block;
+    margin-bottom: 12px;
+    border-radius: 5px;
+    font-weight: 500;
+    box-shadow: 0 2px 7px rgb(0 0 0 / 5%);
+    background-color: bisque;
+    opacity: .8;
+  }
+</style>
+
+
+<style type="text/css">
+  /* Position the image container (needed to position the left and right arrows) */
+
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+  cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 42%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* Container for image text */
+.caption-container {
+  text-align: center;
+  background-color: #222;
+  padding: 2px 16px;
+  color: white;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Six columns side by side */
+.column {
+  float: left;
+  width: 16.66%;
+}
+
+/* Add a transparency effect for thumnbail images */
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+</style>
+
+</head>
+
+<body class="light">
+<!-- Preloader-->
+<div class="vfx-loader">
+	<div class="loader-wrapper">
+		<div class="loader-content">
+			<div class="loader-dot dot-1"></div>
+			<div class="loader-dot dot-2"></div>
+			<div class="loader-dot dot-3"></div>
+			<div class="loader-dot dot-4"></div>
+			<div class="loader-dot dot-5"></div>
+			<div class="loader-dot dot-6"></div>
+			<div class="loader-dot dot-7"></div>
+			<div class="loader-dot dot-8"></div>
+			<div class="loader-dot dot-center"></div>
+		</div>
+	</div>
+</div>
+
+<!-- Header Starts -->
+<header class="header" id="navbar-collapse-toggle"> 
+  <!-- Fixed Navigation Starts -->
+  <ul class="icon-menu d-none d-lg-block revealator-slideup revealator-once revealator-delay1">
+    <li class="icon-box tooltip active"><i class="fa fa-home"></i> <a href="#home"></a><span class="tooltiptext tooltip-right">Home</span></li>
+    <li class="icon-box tooltip"><i class="fa fa-id-card"></i> <a href="#about"></a><span class="tooltiptext tooltip-right">About Me</span></li>
+    <li class="icon-box tooltip"><i class="fa fa-image"></i> <a href="#exp"></a><span class="tooltiptext tooltip-right">My Experience</span></li>
+    <li class="icon-box tooltip"><i class="fa fa-envelope"></i> <a href="#contact"></a><span class="tooltiptext tooltip-right">Contact Me</span></li>
+   
+  </ul>
+  <!-- Fixed Navigation Ends --> 
+  <!-- Mobile Menu Starts -->
+  <nav class="d-block d-lg-none">
+    <div id="menuToggle">
+      <input type="checkbox" />
+      <span></span> <span></span> <span></span>
+      <ul class="list-unstyled" id="menu">
+        <li class="tooltip active"><a href="#home"><i class="fa fa-home"></i></a><span class="tooltiptext tooltip-right">Home</span></li>
+        <li class="tooltip"><a href="#about"><i class="fa fa-id-card"></i></a><span class="tooltiptext tooltip-right">About Me</span></li>
+        <li class="tooltip"><a href="#exp"><i class="fa fa-image"></i></a><span class="tooltiptext tooltip-right">My Experience</span></li>
+        <li class="tooltip"><a href="#contact"><i class="fa fa-envelope"></i></a><span class="tooltiptext tooltip-right">Contact Me</span></li>
+       
+      </ul>
+    </div>
+  </nav>
+  <!-- Mobile Menu Ends --> 
+</header>
+<!-- Header Ends --> 
+<!-- Main Content Starts -->
+<div id="home" class="home">
+<section class="container-fluid main-container container-home p-0 hero-area-block utf-element-cover-bg element-cover-bg revealator-slideup revealator-once revealator-delay1" style="background-image:url(img/hero_img_1.jpg);">
+  <!--<div class="color-block d-none d-lg-block"></div>-->
+  <div class="row utf-home-details-container align-items-center">
+    <div class="col-12 col-lg-7 offset-lg-3 utf-home-details text-center text-sm-center ">
+      <div> 
+	    <img src="img/img-mobile.jpg" class="img-fluid main-img-mobile hero-d-none d-sm-block d-lg-none" alt="my picture" />
+        <h6 class="mb-0 d-block d-lg-block">Hi I'm Deekshitha Kilaru</h6>
+        <h1><span>I Am a</span><span class="typed-words"></span></h1>
+        <p>Highly skilled and innovative Product Manager with extensive business development experience within highly competitive markets. 
+
+
+</p>
+        <a href="#about" class="btn btn-about">About Me <i class="fa fa-user-circle"></i></a> 
+		<a href="#contact" class="btn btn-contact">Get in Touch <i class="fa fa-envelope"></i></a>
+	  </div>
+    </div>
+  </div>
+  <div class="utf-fixed-wrapper"> 
+	  <!-- Languages list -->
+	  <div class="utf-fixed-block block-right">
+		<ul class="list-unstyled languages-list">
+			  <li><a href="https://www.kuat.com/" target="_blank"><span class="single-language">  Product Manager / Business Analyst  </span></a></li>
+			 
+		</ul>
+	  </div>
+  </div>
+
+</section>
+
+</div>
+
+<!-- Main Content Ends --> 
+
+
+<!-- Page Title Starts -->
+<div id="about" class="about">
+<section class="title-section text-center text-sm-center revealator-slideup revealator-once revealator-delay1">
+  <!-- <p class="utf-section-description">About Main Info</p>	 -->
+  <h1>About <span>ME</span></h1>  
+  <div class="animated-bar"></div>
+  <p class="text-max-700"> 
+   
+     <i class="fa fa-diamond" aria-hidden="true" style="color: #77894d;"></i>
+                           &nbsp;   Associate Product Manager   &nbsp;
+
+                             <i class="fa fa-diamond" aria-hidden="true" style="color: #77894d;"></i>
+                           &nbsp; Growth Product Manager    &nbsp;<br>
+
+                           <i class="fa fa-diamond" aria-hidden="true" style="color: #77894d;"></i>
+                           &nbsp; Product Marketing Manager    &nbsp;
+                             <i class="fa fa-diamond" aria-hidden="true" style="color: #77894d;"></i>
+                           &nbsp; Data/Analytics Product Manager     &nbsp;<br>
+                            <i class="fa fa-diamond" aria-hidden="true" style="color: #77894d;"></i>
+                           &nbsp;  Technical Product Manager     &nbsp;<br> 
+    
+
+                           
+                           
+
+                         </p>
+</section>
+<!-- Page Title Ends --> 
+
+<!-- Main Content Starts -->
+<section class="main-content revealator-slideup revealator-once revealator-delay1">
+  <div class="container">
+    <div class="row"> 
+
+      <!-- Personal Info Starts -->
+      <div class="col-12 col-lg-12 col-xl-12">
+        <div class="row">
+
+          <div class="col-xl-5 col-lg-5 col-md-12 col-sm-12 utf-about-user-img"> 
+            <img src="img/04.jpg" class="img-fluid main-img-mobile" alt="my picture" /> 
+
+<!-- <div class="mySlides">
+    <div class="numbertext">1 / 5</div>
+    <img src="img/01.jpg" style="width:100%">
+  </div>
+
+ <div class="mySlides">
+    <div class="numbertext">2 / 5</div>
+    <img src="img/02.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">3 / 5</div>
+    <img src="img/03.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">4 / 5</div>
+    <img src="img/04.jpg" style="width:100%">
+  </div>
+    
+  <div class="mySlides">
+    <div class="numbertext">5 / 5</div>
+    <img src="img/05.jpg" style="width:100%">
+  </div>
+
+ 
+ 
+    
+  <a class="prev" onclick="plusSlides(-1)">❮</a>
+  <a class="next" onclick="plusSlides(1)">❯</a>
+
+  <div class="caption-container">
+    <p id="caption"></p>
+  
+ </div> -->
+
+
+          </div>
+		  <div class="row col-xl-7 col-lg-7 col-md-12 utf-about-dtl">
+			  <div class="col-12 mb-3">
+				<h2 style="font-size: 30px;">Deekshitha Kilaru</h2>  
+				
+			
+<ul style="text-align: justify;font-weight: 400;
+    line-height: 1.8;
+    color: #000000;
+    text-align: justify;
+    margin-left: -25px;">
+ <li>A multi-skilled, Computer science graduate from Rowan University, New Jersey, NJ with excellent interpersonal skills of Product Manager.</li>
+
+<li>Led product development, strategy, and redesigned from concept through development and manufacturing to market launch.</li>
+
+<li>Developed products by identifying potential products, conducting market research, generating product requirements, developing marketing strategies, and determining specifications, production timetables, pricing, and time-integrated plans for product introduction.</li>
+
+<li>Determined customers’ needs and desires by specifying the research needed to obtain market information. Assessed market competition by comparing the company’s product to competitors’ products.</li>
+
+<li>Recommended the nature and scope of present and future product lines by reviewing product specifications and requirements, appraising new product ideas and/or product or packaging changes.</li>
+
+<li>Provided source data for product line communications by defining product marketing communication objectives. Obtained product market share by working with sales director to develop product sales strategies.</li>
+
+
+</ul>  
+
+</p><!-- <p>
+•	Well organized, effective communicator, conscientious multi-tasker, and understand client and costumer requirements
+</p> -->
+			  </div>
+			  <div class="col-12 mt-3"> 
+				<a href="myresume.pdf" target="_blank" class="btn btn-download">Download My CV <i class="fa fa-download"></i></a>
+				<a href="#contact" class="btn btn-hire">Hire Me! <i class="fa fa-file"></i></a>	
+			  </div>
+		  </div>
+        </div>
+      </div>
+      <!-- Personal Info Ends --> 
+      <!-- Boxes Starts -->
+    <!--   <div class="col-12 col-lg-12 col-xl-12 pt-5 mt-lg-0 pb-5">
+        <div class="row">
+          <div class="col-6 col-lg-3 col-sm-4 col-xs-12">
+            <div class="utf-box-stats with-margin">
+			  <i class="fa fa-camera"></i>
+              <p class="m-0 position-relative">Photography</p>
+            </div>
+          </div>
+          <div class="col-6 col-lg-3 col-sm-4 col-xs-12">
+            <div class="utf-box-stats with-margin">
+			  <i class="fa fa-film"></i>
+              <p class="m-0 position-relative">Hiking & Adventure</p>
+            </div>
+          </div>
+          <div class="col-6 col-lg-3 col-sm-4 col-xs-12">
+            <div class="utf-box-stats with-margin">
+			  <i class="fa fa-cutlery"></i>
+              <p class="m-0 position-relative">Cooking</p>
+            </div>
+          </div>
+         
+           <div class="col-6 col-lg-3 col-sm-4 col-xs-12">
+             <a target="_blank" href="https://www.instagram.com/karmaaaspheree/">
+            <div class="utf-box-stats with-margin">
+        <i class="fa fa-instagram"></i>
+              <p class="m-0 position-relative">Instagram</p>
+            </div>
+              </a>
+          </div>
+      
+          		 
+     <i class="fa-solid fa-bowl-rice"></i>
+        </div>
+      </div> -->
+      <!-- Boxes Ends --> 
+    </div>
+
+    <!-- Skills Starts -->
+   
+    <!-- Skills Ends -->
+ <div class="row">
+      <div class="col-lg-12 mt-5">
+      <h3 class="col-title">Projects</h3>
+        <div class="utf-resume-box">
+          <ul>
+             <li>
+              <div class="icon"></div>
+
+              <h5>Upcomming Projects</h5>
+             <p><b style="color:#77894d">•</b> A project in relation to LinkedIn services.
+(This project is independent and is NOT affiliated
+with the LinkedIn Corporation in any way)
+          </p>
+
+           <p><b style="color:#77894d">•</b> A project involving a food app.
+          </p>
+
+
+            <li>
+              <div class="icon"></div>
+
+              <h5>Rowan events</h5>
+              <a target="_blank" href="https://drive.google.com/file/d/1gqVr9k8vC2sUvWa7aQrpG824UV9wDDB1/view?usp=sharing">https://drive.google.com/file/d/1gqVr9k8vC2sUvWa7aQrpG824UV9wDDB1/view?usp=sharing</a>
+              <br>
+<a target="_blank" href="https://drive.google.com/file/d/1-FlEYZihsBLgXvtnZpak0ZuEDLAcos7d/view?usp=sharing">
+https://drive.google.com/file/d/1-FlEYZihsBLgXvtnZpak0ZuEDLAcos7d/view?usp=sharing
+              </a>
+            </li>
+
+
+             <li>
+              <div class="icon"></div>
+
+              <h5>Tableau public<br><br>
+                <a href="https://public.tableau.com/app/profile/deekshitha1047">https://public.tableau.com/app/profile/deekshitha1047</a></h5>
+            </li>
+
+
+            <li>
+              <div class="icon"></div>
+
+              <h5>Google play store analysis<br><br>
+                <a href="https://github.com/Deekshithakilaru/Google_Playstore_Analysis">https://github.com/Deekshithakilaru/Google_Playstore_Analysis</a></h5>
+            </li>
+
+
+            <li>
+              <div class="icon"></div>
+
+              <h5>Data clustering, New York City<br><br>
+                <a href="https://github.com/Deekshithakilaru/Data-Clustering-capstone">https://github.com/Deekshithakilaru/Data-Clustering-capstone</a></h5>
+            </li>
+
+
+            <li>
+              <div class="icon"></div>
+
+              <h5>Mini projects <br><br>
+                <a href="https://github.com/Deekshithakilaru/Mini-Projects">https://github.com/Deekshithakilaru/Mini-Projects</a></h5>
+            </li>
+
+            <!--  <li>
+              <div class="icon"></div>
+              <span class="time">May 2011</span> 
+              <h5>Bachelor of Science in Mechanical Engineering <span class="place">Hwa Hsia University of Technology, New Taipei City,Taiwan</span></h5>
+             
+            </li> -->
+           
+           
+           
+          </ul>
+        </div>
+      </div>
+    </div>
+    <!-- Experience & Education Starts -->
+    <div class="row">
+      <div class="col-lg-12 m-15px-tb">
+	    <h3 class="col-title">My Education</h3>
+        <div class="utf-resume-box">
+          <ul>
+            <li>
+              <div class="icon"></div>
+              <span class="time">May 2022</span> 
+              <span class="time">GPA: 3.30</span> 
+
+              <h5>Rowan University, New Jersey, NJ<span class="place">Bachelor of Engineering in Computer</span></h5>
+            </li>
+            <!--  <li>
+              <div class="icon"></div>
+              <span class="time">May 2011</span> 
+              <h5>Bachelor of Science in Mechanical Engineering <span class="place">Hwa Hsia University of Technology, New Taipei City,Taiwan</span></h5>
+             
+            </li> -->
+           
+           
+           
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div id="exp" class="row">
+      <div class="col-lg-12 m-15px-tb">
+	    <h3 class="col-title">Work Experience</h3>
+        <div class="utf-resume-box">
+          <ul>
+            <li>
+              <div class="icon"></div>
+              <span class="time">Sept 2021 – May 2022</span>
+              <h5>Product Manager, Rowan University, New Jersey, NJ</h5>
+              <p><b style="color:#77894d">•</b> Worked cross-functionally with developers and UI/UX designers to build an application for 23,000 students to build an interactive events app that &nbsp;&nbsp;&nbsp;helped in student engagement on campus.<br>
+<b style="color:#77894d">•</b> Monitored market and competitor trends, and analyzed customer feedback data through surveys and research, prioritized and made 5 key product &nbsp;&nbsp;&nbsp;feature changes improving student interaction and event visibility.<br>
+ 
+
+
+</p>
+            </li>
+
+            <li>
+              <div class="icon"></div>
+              <span class="time">Aug 2020 – Nov 2020</span>
+              <h5>Data Science Analyst Intern, Board Infinity (E-learning Platform), Remote</h5>
+              <p><b style="color:#77894d">•</b> Integrated Google Analytics with Data studio to build interactive dashboards tracking website metrics.<br>
+<b style="color:#77894d">•</b> Designed A/B testing scenarios for 3 UI screens, gathered 500 user research points leading to 9% increase in user adoption rate.<br>
+
+<b style="color:#77894d">•</b> Managed OKR metric tracking and reporting in Power BI, reduced time to quarterly report presentation by 8%.<br>
+ 
+ <b style="color:#77894d">•</b> Managed Product Roadmap prioritization for 3 Educational Content streams, led to 13% increased user completion rate.<br>
+
+  <b style="color:#77894d">•</b> Conducted Competitive Market research on 11 competitors in SEO and Digital Advertising, implemented recommendations leading to 18% increase in &nbsp;&nbsp;&nbsp;customer acquisition rate.<br>
+
+
+</p>
+            </li>
+
+
+             <li>
+              <div class="icon"></div>
+              <span class="time">May 2020 – July 2020</span>
+              <h5>Product Development Intern, 3S logics, India</h5>
+              <p><b style="color:#77894d">•</b> Built data visualization using SQL scripts & Tableau Dashboard chart optimization for business KPIs that reduce manual reporting work by 8 hrs &nbsp;&nbsp;&nbsp;weekly.<br>
+
+<b style="color:#77894d">•</b> Reviewed user stories in JIRA to provide accurate technical sizing, monitored adherence to acceptance criteria thereby improving efficiency in sprint &nbsp;&nbsp;&nbsp;planning and release management by 20%.<br>
+
+<b style="color:#77894d">•</b> Worked with Head of design to implement new features for B2B & B2C events, build business model, wrote platform specification & documentation.<br>
+ 
+ <b style="color:#77894d">•</b> Through root cause analysis with Product Manager, Data scientists, identified a strategic marketing opportunity for the client and made &nbsp;&nbsp;&nbsp;recommendations that saved the client & stakeholders over 3.5K in annual campaign costs.<br>
+
+
+</p>
+            </li>
+
+             <li>
+              <div class="icon"></div>
+              <span class="time">Aug 2019 – July 2020</span>
+              <h5>Head of Product, Spade EMS, India</h5>
+              <p><b style="color:#77894d">•</b> Build visionary innovations (occasionally in front of investors or analysts), strategic decision proposals, as well as the calculation of business cases.<br>
+
+<b style="color:#77894d">•</b> Responsible for strategic partnerships and lead necessary contract negotiations.<br>
+
+<b style="color:#77894d">•</b> Business Analyst : Assisted Product Chief in pipeline management, and collateral preparation for 7 clients across North-India.<br>
+ 
+ <b style="color:#77894d">•</b> Negotiated 5 contracts with distributors, resulting in an avg reduction of 25% in development expenses, established effective network in key markets.<br>
+
+ <b style="color:#77894d">•</b> Tested business processes of SPADE EMS, designed Product roadmaps improving business performance by 18%.<br>
+
+
+</p>
+            </li>
+         
+         
+
+            
+         
+ 
+
+          </ul>
+        </div>
+      </div>
+    </div>
+
+      <div class="row">
+      <div class="col-lg-12 m-15px-tb">
+      <h3 class="col-title">Leadership Experience</h3>
+        <div class="utf-resume-box">
+          <ul>
+            <li>
+              <div class="icon"></div>
+              <!-- <span class="time">Sept 2021 – Dec 2021</span> -->
+              <h5>Technical Assistant, US Election Commission:</h5>
+              <p><b style="color:#77894d">•</b> Assisted US election Commission with troubleshooting during local elections in Gloucester County, New Jersey.<br>
+<b style="color:#77894d">•</b> Assisted 50 people per hour for smooth processing of election duties.<br>
+
+
+
+</p>
+            </li>
+
+            <li>
+              <div class="icon"></div>
+              <!-- <span class="time">Sept 2021 – Dec 2021</span> -->
+              <h5>Speaker, Silver Lining Foundation: </h5>
+              <p><b style="color:#77894d">•</b> Spokesperson and campaign lead for awareness on clinical depression & anxiety in college students.<br>
+<b style="color:#77894d">•</b> Conducted weekly interactions and delivered 5 speeches to over 300 Audience.<br>
+
+
+
+</p>
+            </li>
+             
+               <li>
+              <div class="icon"></div>
+              <!-- <span class="time">Sept 2021 – Dec 2021</span> -->
+              <h5>Social Activist: Red Cross, VNU & Margam </h5>
+              <p><b style="color:#77894d">•</b> Assisted in the administration and provided direct support to 4 Red Cross programs, including logistical duties such as ordering  supplies, food &nbsp;&nbsp;&nbsp;supplies, medicines, and course books to help underprivileged minority class children.<br>
+<b style="color:#77894d">•</b> Lead the Lantern festival for 350+ audience to create awareness about Swatch Bharath Abhiyan, employment, business opportunities for youth.<br>
+
+<b style="color:#77894d">•</b> Launched Sunday volunteering services with a team of 20 people to improve city conditions and promote tourism<br>
+
+
+</p>
+            </li>
+             
+            
+         
+ 
+
+          </ul>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- Experience & Education Ends -->
+<div class="pb-3 pt-5 utf-testimonials-section utf-single-section">
+      <div class="col-12">
+        <h3 class="pb-5 pb-sm-5 mb-3 mb-sm-0 text-center text-sm-center custom-title ft-wt-600">Technical Expertise : </h3>
+      </div>
+
+   
+     
+            <h6 style="display: inline-block;" class="utf-client-name">Programming Language : </h6>&nbsp;
+      <span class="timee">R</span>&nbsp;
+      <span class="timee">Python</span>&nbsp;
+      <span class="timee">SAS Base</span>&nbsp;
+       <span class="timee">Visual Basic</span>&nbsp;
+      <span class="timee">MATLAB</span>&nbsp;
+      <span class="timee">SQL</span>&nbsp;
+     
+<br>
+ <h6 style="display: inline-block;" class="utf-client-name">Data Analytics : </h6>&nbsp;
+      <span class="timee">Hadoop</span>&nbsp;
+      <span class="timee">Tableau</span>&nbsp;
+      <span class="timee">Power BI</span>&nbsp;
+      <span class="timee">Excel</span>&nbsp;
+      
+
+      <br>
+       <h6 style="display: inline-block;" class="utf-client-name">Abilities : </h6>&nbsp;
+      <span class="timee">User Journey</span>&nbsp;
+
+<span class="timee">Scrum Framework</span>&nbsp;
+<span class="timee">Product Roadmaps</span>&nbsp;
+<span class="timee">Wire-frame Design</span>&nbsp;
+<span class="timee">UX research</span>&nbsp;
+<span class="timee">Figma</span>&nbsp;
+<span class="timee">Balsamiq</span>&nbsp;
+
+
+
+
+
+
+       <br>
+      <h6 style="display: inline-block;" class="utf-client-name">Data Analytics : </h6>&nbsp;
+      <span class="timee">Spark</span>&nbsp;
+      <span class="timee">Data bricks</span>&nbsp;
+      <span class="timee">Hadoop</span>&nbsp;
+       <span class="timee">Tableau</span>&nbsp;
+      <span class="timee">Power BI</span>&nbsp;
+      <span class="timee">Looker</span>&nbsp;
+       <span class="timee">Qlik</span>&nbsp;
+      <span class="timee">Excel</span>&nbsp;
+      <span class="timee">MATLAB</span>&nbsp;
+       <span class="timee">Agile Project Management</span>&nbsp;
+      <span class="timee">VS Code</span>&nbsp;
+      <span class="timee">JIRA</span>&nbsp;
+
+
+
+
+      <br>
+     <h6 style="display: inline-block;" class="utf-client-name">Business Skills : </h6>&nbsp;
+      <span class="timee">Google Office Suite</span>&nbsp;
+      <span class="timee">MS office suite (Excel, Word, PowerPoint)</span>&nbsp;
+      <span class="timee">Supervised and Unsupervised Machine Learning algorithms</span>&nbsp;
+      <span class="timee">Time Series Analysis</span>&nbsp;
+      <span class="timee">Data Extraction</span>&nbsp;
+      <span class="timee">Data Analytics</span>&nbsp;
+      <span class="timee">Data Visualization</span>&nbsp;
+
+
+
+
+
+
+      <br>
+     
+
+
+
+      <h6 style="display: inline-block;" class="utf-client-name">Interpersonal Skills : </h6>&nbsp;
+      <span class="timee">Strong Internet Research</span>&nbsp;
+      <span class="timee">Excellent Verbal</span>&nbsp;
+      <span class="timee">Written and Quantitative Skills</span>&nbsp;
+       <span class="timee">Time Management and Prioritization Abilities</span>&nbsp;
+      <span class="timee">Effective Presentation</span>&nbsp;
+
+      <span class="timee">Negotiation Skills  </span>&nbsp;
+   
+      
+<br>
+
+
+        </div>
+    <!-- Provide Services Starts -->
+
+    <div class="row pb-3 pt-5 utf-services-section">
+      <div class="col-12">
+        <h3 class="pb-5 pb-sm-5 mb-3 mb-sm-0 text-center text-sm-center custom-title ft-wt-600">What Can I Do</h3>
+      </div>
+	  <div class="col-12 col-md-6 col-lg-4">
+		<div class="utf-single-service">
+		  <h6 class="utf-service-title">Business Strategy</h6>
+		</div>
+	  </div>
+
+	   <div class="col-12 col-md-6 col-lg-4">
+		<div class="utf-single-service">
+		  <h6 class="utf-service-title">Product Roadmap</h6>
+		</div>
+	  </div>
+
+	   <div class="col-12 col-md-6 col-lg-4">
+		<div class="utf-single-service">
+		  <h6 class="utf-service-title">Product Launches</h6>
+		</div>
+	  </div>
+
+
+
+    <div class="col-12 col-md-6 col-lg-4">
+    <div class="utf-single-service">
+      <h6 class="utf-service-title">Product Marketing</h6>
+    </div>
+    </div>
+
+   
+
+     <div class="col-12 col-md-6 col-lg-4">
+    <div class="utf-single-service">
+      <h6 class="utf-service-title">Strategic Planning</h6>
+    </div>
+    </div>
+
+
+     <div class="col-12 col-md-6 col-lg-4">
+    <div class="utf-single-service">
+      <h6 class="utf-service-title">Data Analysis </h6>
+    </div>
+    </div>
+
+
+     <div class="col-12 col-md-6 col-lg-4">
+    <div class="utf-single-service">
+      <h6 class="utf-service-title">UX research</h6>
+    </div>
+    </div>
+	 
+
+   
+    </div>
+
+
+	  
+	  
+	  <div class="row pb-3 pt-5 utf-services-section">
+      <div class="col-12">
+        <h3 class="pb-5 pb-sm-5 mb-3 mb-sm-0 text-center text-sm-center custom-title ft-wt-600">My Hobbies</h3>
+      </div>
+    <div class="col-12 col-md-6 col-lg-3">
+     <div class="utf-box-stats with-margin">
+        <i class="fa fa-camera"></i>
+              <p class="m-0 position-relative">Photography</p>
+            </div>
+    </div>
+
+     <div class="col-12 col-md-6 col-lg-3">
+   <div class="utf-box-stats with-margin">
+        <i class="fa fa-film"></i>
+              <p class="m-0 position-relative">Hiking & Adventure</p>
+            </div>
+    </div>
+
+     <div class="col-12 col-md-6 col-lg-3">
+   <div class="utf-box-stats with-margin">
+        <i class="fa fa-cutlery"></i>
+              <p class="m-0 position-relative">Cooking</p>
+            </div>
+    </div>
+
+
+
+    <div class="col-12 col-md-6 col-lg-3">
+     <a target="_blank" href="https://www.instagram.com/karmaaaspheree/">
+            <div class="utf-box-stats with-margin">
+        <i class="fa fa-instagram"></i>
+              <p class="m-0 position-relative">Instagram</p>
+            </div>
+              </a>
+    </div>
+
+   
+
+   
+
+   
+    </div>
+
+	 
+	
+        <!-- Provide Services Ends -->	
+	
+    
+      
+      </div>
+    
+     
+    </div>
+		
+		
+	
+    <!-- Testimonials section Ends -->
+	
+	
+    <!-- Choose Your Plan Ends -->
+  </div>
+</section>
+</div>		
+<!-- Main Content Ends --> 
+
+
+
+<div class="contact">
+	<!-- Page Title Starts -->
+<section class="title-section text-center text-sm-center revealator-slideup revealator-once revealator-delay1">
+  <!-- <p class="utf-section-description">Connect Me</p>	 -->
+  <h1>Get In <span>Touch</span></h1>  
+  <div class="animated-bar"></div>
+  <!-- <p class="text-max-700">Lorem ipsum dolor sit amet, consect adipisic elit, sed do eiusmod tempor incididunt ut labore et d magna aliqua enim sed do sit.</p> -->
+</section>  
+<!-- Page Title Ends --> 
+
+<!-- Main Content Starts -->
+<section id="contact" class="main-content revealator-slideup revealator-once revealator-delay1 no-transform revealator-within">
+  <div class="container">
+    <div class="row"> 
+      <!-- Left Side Starts -->
+      <div class="col-12 col-lg-5">
+      <h4 class="utf-content-title">My Contact Info</h4>
+  
+       
+        <p class="utf-custom-span-contact position-relative"><i class="fa fa-map-marker position-absolute"></i> <span class="d-block">Location</span>New York , NY </p>
+        <p class="utf-custom-span-contact position-relative"><i class="fa fa-linkedin position-absolute"></i> <span class="d-block">LinkedIn</span><a target="_blank" href="https://www.linkedin.com/in/dck0ks3/">https://www.linkedin.com/in/dck0ks3/</a></p>
+    <p class="utf-custom-span-contact position-relative"><i class="fa fa-envelope position-absolute"></i> <span class="d-block">Email Address</span><a href="mailto:Kilarudeekshitha@gmail.com">Kilarudeekshitha@gmail.com</a></p>
+        <ul class="social list-unstyled pt-2 mb-5">
+
+        
+          <li class="linkedin"><a title="Linkedin" target="_blank" href="https://www.linkedin.com/in/dck0ks3/"><i class="fa fa-linkedin"></i></a></li>
+      <li class="twitter"><a title="Twitter" target="_blank" href="https://twitter.com/karmaaspheree"><i class="fa fa-twitter"></i></a></li>
+      <li class="instagram"><a title="Instagram" target="_blank" href="https://www.instagram.com"><i class="fa fa-instagram"></i></a></li>
+        <li class="facebook"><a title="Tiktok" target="_blank" href=" https://www.tiktok.com"> <iconify-icon icon="fa-brands:tiktok"></iconify-icon></a></li>
+          
+        </ul>
+    <!--    <ul class="social list-unstyled pt-2 mb-5">-->
+    <!--      <li class="facebook"><a title="Facebook" href="#"><i class="fa fa-facebook"></i></a></li>-->
+    <!--      <li class="linkedin"><a title="Linkedin" href="#"><i class="fa fa-linkedin"></i></a></li>-->
+      <!--<li class="twitter"><a title="Twitter" href="#"><i class="fa fa-twitter"></i></a></li>-->
+      <!--<li class="instagram"><a title="Instagram" href="#"><i class="fa fa-instagram"></i></a></li>-->
+    <!--      <li class="whatsapp"><a title="Whatsapp" href="#"><i class="fa fa-whatsapp"></i></a></li>     -->
+    <!--    </ul>-->
+      </div>
+      <!-- Left Side Ends --> 
+      <!-- Contact Form Starts -->
+      <div class="col-12 col-lg-7">
+      <form class="contactform utf-contact-form form mb-5" method="post" action="">
+        <h4 class="utf-content-title">Contact Me</h4>
+      <!-- Success Message -->
+      <!--  <div class="col-md-12 mt-3 p-0">-->
+       <!--<div class="alert alert-success utf-contact-msg" style="display:none;text-align:center;width:100%;" role="alert">       -->
+        <!--<div class="col-12 p-0">Your Message Was Sent Successfully.</div>-->
+       <!-- </div>-->
+      <!--  </div>-->
+      <div class="row">
+              <div style="margin-bottom: 20px;" class="col-12 col-md-6 input-group">
+                <input type="text" name="name" id="name" class="form-control" placeholder="Your Name" required="">
+              </div>
+              <div style="margin-bottom: 20px;" class="col-12 col-md-6 input-group">
+                <input name="email" type="email" id="email" class="form-control" placeholder="Your Email" required="">
+              </div>
+            <!--   <div style="margin-bottom: 20px;" class="col-12 col-md-6 input-group">
+                <input type="text" name="subject" id="subject" class="form-control" placeholder="Write a Subject" required="">
+              </div> -->
+       <!--  <div style="margin-bottom: 20px;" class="col-12 col-md-6 input-group">
+                <input type="number" name="phone" id="phone" class="form-control" placeholder="Phone Number" required="">
+              </div> -->
+              <div class="col-12 col-md-12 input-group">
+                <textarea name="message" id="message" class="form-control" placeholder="Your Message..." required=""></textarea>                
+              </div>
+        <div class="col-12 col-md-12 input-group">
+                <button name="submit" type="submit" class="mx-auto btn btn_submit" value="Submit">Submit <i class="fa fa-envelope"></i></button>
+              </div>
+            </div>
+        </form>
+      </div>
+      <!-- Contact Form Ends --> 
+    </div>
+    <!-- Map Section Start -->
+   
+    <!-- Map Section End -->
+  </div>
+   <center><h5 style="font-size: medium;">Powered By <a target="_blank" style="color:red;" href="https://www.unitedopt.com/">United OPT</a></h5></center>
+</section>
+<!-- Contact Section Ends -->
+</div>
+
+<script>
+let slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("demo");
+  let captionText = document.getElementById("caption");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+  captionText.innerHTML = dots[slideIndex-1].alt;
+}
+</script>
+<!-- JS Files --> 
+<script src="https://code.iconify.design/iconify-icon/1.0.0-beta.3/iconify-icon.min.js"></script>
+<script src="js/jquery-3.5.0.min.js"></script> 
+<script src="js/fm.revealator.jquery.min.js"></script> 
+<script src="js/imagesloaded.pkgd.min.js"></script> 
+<script src="js/masonry.pkgd.min.js"></script> 
+<script src="js/classie.js"></script> 
+<script src="js/jquery.hoverdir.js"></script> 
+<script src="js/popper.min.js"></script> 
+<script src="js/bootstrap.js"></script> 
+<script src="js/modernizr.custom.js"></script>
+<script src="js/typed.js"></script>
+<script src="js/custom_jquery.js"></script>
+
+<script src="js/jquery.hoverdir.js"></script> 
+<script src="js/tiny-slider.js"></script>
+<script src="js/bootstrap.js"></script> 
+
+
+<script src="js/modernizr.custom.js"></script>
+<script src="js/cbpGridGallery.js"></script> 
+
+
+<!--Map Js-->
+
+
+<script>
+var typed = new Typed('.typed-words', {
+	strings: ["Product Manager","Business Analyst"],
+	typeSpeed: 80,
+	backSpeed: 80,
+	backDelay: 4000,
+	startDelay: 1000,
+	loop: true,
+	showCursor: true
+});
+</script>
+<script>
+	tns({
+	container: ".utf-testimonials-section .utf-testimonial-slider",
+	items: 2,
+	gutter: 30,
+	responsive: {
+		0: {
+			items: 1,
+			gutter: 0
+		},
+		768: {
+			items: 2,
+			gutter: 30
+		}
+	},
+	preventScrollOnTouch: "auto",
+	slideBy: "page",
+	mouseDrag: !0,
+	swipeAngle: !1,
+	speed: 400,
+	controls: !1,
+	autoHeight: !0,
+	navPosition: "bottom"
+});
+</script>
+</script>
+</body>
+
+<!-- Mirrored from utouchdesign.com/themes/meetu/dark/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 06 Oct 2021 18:08:41 GMT -->
+</html>
